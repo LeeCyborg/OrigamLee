@@ -8,9 +8,11 @@ d = draw.Drawing(600, 600)
 #linearFoldB(0, 250, 100, 250, 2)
 
 #linearFoldPage(d, 50, 600, 3)
+t = Pattern(d)
 
+t.makeSimpleWaterbomb(100, 100)
 #makeComplexWaterbomb(
-makeSimpleWaterbomb(d, 100, 100)
+#makeSimpleWaterbomb(d, 100, 100)
 #makeGradiant(d, 100, 100)
 d.saveSvg('pattern.svg')
 

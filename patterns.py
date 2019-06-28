@@ -22,3 +22,12 @@ def  makeGradiant (d, width, height):
 		for x in range(1, 10, 1):
 			waterbombTwo(d, x*width, currentY, width, y*height/3)
 		currentY = currentY+(y*height/3)
+
+class Pattern():
+	def __init__(self, where):
+		self.d = where
+
+	def makeSimpleWaterbomb (self, width, height):
+		for x in range(0, 600, width):
+			for y in range(0, 600, height):
+				waterbombTwo(self.d, x, y, width, height, 0)
