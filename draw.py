@@ -1,8 +1,13 @@
 import drawSvg as draw
 from pieces import *
 from patterns import *
+import random
+import math
 
 d = draw.Drawing(600, 600)
+# radius of the circle
+
+
 
 #linearFoldA(0, 0, 100, 250, 1.2)
 #linearFoldB(0, 250, 100, 250, 2)
@@ -10,8 +15,11 @@ d = draw.Drawing(600, 600)
 #linearFoldPage(d, 50, 600, 3)
 t = Pattern(d)
 
-t.makeSimpleWaterbomb(100, 100)
-#makeComplexWaterbomb(
+
+#t.makeGradiantX(100, 100, 5, 10, Pieces.waterbombOneA);
+t.makeComplexWaterbomb(100, 100, 0,0, Pieces.waterbombOneA, Pieces.waterbombOneB)
+#t.makeSimpleWaterbomb(100, 100)
+#makeComplexWate	rbomb(
 #makeSimpleWaterbomb(d, 100, 100)
 #makeGradiant(d, 100, 100)
 d.saveSvg('pattern.svg')
