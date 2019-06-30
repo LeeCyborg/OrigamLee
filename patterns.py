@@ -1,5 +1,8 @@
 import drawSvg as draw
 from pieces import *
+import random
+import math
+
 
 
 class Pattern(Pieces):
@@ -9,10 +12,10 @@ class Pattern(Pieces):
 	def makeCanvas():
 		pass
 
-	def makeSimpleWaterbomb (self, width, height):	
+	def makeSimpleWaterbomb (self, width, height, m, piece):	
 		for x in range(0, self.d.width, width):
 			for y in range(0, self.d.height, height):
-				Pieces.waterbombTwo(self, self.d, x, y, width, height, 1)
+				piece(self, self.d, x, y, width, height, m, 0)
 	def  makeGradiantX (self, width, height, factor, interations, piece):
 		currentX = 0
 		for x in range(1, interations, 1):

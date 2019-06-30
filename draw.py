@@ -1,8 +1,6 @@
 import drawSvg as draw
-from pieces import *
 from patterns import *
-import random
-import math
+
 
 d = draw.Drawing(600, 600)
 # radius of the circle
@@ -17,8 +15,8 @@ t = Pattern(d)
 
 
 #t.makeGradiantX(100, 100, 5, 10, Pieces.waterbombOneA);
-t.makeComplexWaterbomb(100, 100, 0,0, Pieces.waterbombOneA, Pieces.waterbombOneB)
-#t.makeSimpleWaterbomb(100, 100)
+#t.makeComplexWaterbomb(100, 100, 0,0, Pieces.waterbombOneA, Pieces.waterbombOneB)
+t.makeSimpleWaterbomb(100, 100, 0, Pieces.waterbombTwo)
 #makeComplexWate	rbomb(
 #makeSimpleWaterbomb(d, 100, 100)
 #makeGradiant(d, 100, 100)
