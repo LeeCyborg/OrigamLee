@@ -29,7 +29,7 @@ class Pattern(Pieces):
 				Pieces.waterbombTwo(self, self.d, x*width, currentY, width, y*height/factor, 1, 0)
 			currentY = currentY+(y*height/factor)
 
-	def makeComplex(self, width, height, factor, iterations, pieceA, pieceB):
+	def makeComplex(self, width, height, iterations, pieceA, pieceB):
 		for x in range(0, self.d.width, width*2):
 			for y in range(0, self.d.height, height):
 				pieceA(self, self.d, x, y, width, height, 0, 0)
