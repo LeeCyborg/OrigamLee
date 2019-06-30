@@ -12,7 +12,7 @@ class Pattern(Pieces):
 	def makeCanvas():
 		pass
 
-	def makeSimpleWaterbomb (self, width, height, m, piece):	
+	def makeSimple(self, width, height, m, piece):	
 		for x in range(0, self.d.width, width):
 			for y in range(0, self.d.height, height):
 				piece(self, self.d, x, y, width, height, m, 0)
@@ -29,7 +29,7 @@ class Pattern(Pieces):
 				Pieces.waterbombTwo(self, self.d, x*width, currentY, width, y*height/factor, 1, 0)
 			currentY = currentY+(y*height/factor)
 
-	def makeComplexWaterbomb (self, width, height, factor, iterations, pieceA, pieceB):
+	def makeComplex(self, width, height, factor, iterations, pieceA, pieceB):
 		for x in range(0, self.d.width, width*2):
 			for y in range(0, self.d.height, height):
 				pieceA(self, self.d, x, y, width, height, 0, 0)

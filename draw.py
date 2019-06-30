@@ -15,8 +15,8 @@ t = Pattern(d)
 
 
 #t.makeGradiantX(100, 100, 5, 10, Pieces.waterbombOneA);
-#t.makeComplexWaterbomb(100, 100, 0,0, Pieces.waterbombOneA, Pieces.waterbombOneB)
-t.makeSimpleWaterbomb(100, 100, 0, Pieces.waterbombTwo)
+#t.makeComplex(100, 100, 0,0, Pieces.waterbombOneA, Pieces.waterbombOneB)
+t.makeSimple(100, 100, 0, Pieces.waterbombTwo)
 #makeComplexWate	rbomb(
 #makeSimpleWaterbomb(d, 100, 100)
 #makeGradiant(d, 100, 100)
