@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="600" height="600" viewBox="0 -600 600 600">
+<defs>
+</defs>
+<path d="M0.0,0 L0.0,-300.0" stroke="blue" stroke-width="1" />
+<path d="M0.0,-300.0 L0.0,-600" stroke="red" stroke-width="1" />
+<path d="M0,-300.0 L0.0,-300.0" stroke="red" stroke-width="1" />
+<path d="M0.0,-300.0 L0.0,-300.0" stroke="red" stroke-width="1" />
+<path d="M0.0,0 L0.0,-300.0" stroke="red" stroke-width="1" />
+<path d="M0.0,-300.0 L0.0,-600" stroke="blue" stroke-width="1" />
+<path d="M12.5,0 L12.5,-312.5" stroke="blue" stroke-width="1" />
+<path d="M12.5,-312.5 L12.5,-600" stroke="red" stroke-width="1" />
+<path d="M0.0,-300.0 L12.5,-312.5" stroke="red" stroke-width="1" />
+<path d="M12.5,-312.5 L25.0,-300.0" stroke="red" stroke-width="1" />
+<path d="M25.0,0 L25.0,-300.0" stroke="red" stroke-width="1" />
+<path d="M25.0,-300.0 L25.0,-600" stroke="blue" stroke-width="1" />
+<path d="M50.0,0 L50.0,-325.0" stroke="blue" stroke-width="1" />
+<path d="M50.0,-325.0 L50.0,-600" stroke="red" stroke-width="1" />
+<path d="M25.0,-300.0 L50.0,-325.0" stroke="red" stroke-width="1" />
+<path d="M50.0,-325.0 L75.0,-300.0" stroke="red" stroke-width="1" />
+<path d="M75.0,0 L75.0,-300.0" stroke="red" stroke-width="1" />
+<path d="M75.0,-300.0 L75.0,-600" stroke="blue" stroke-width="1" />
+<path d="M112.5,0 L112.5,-337.5" stroke="blue" stroke-width="1" />
+<path d="M112.5,-337.5 L112.5,-600" stroke="red" stroke-width="1" />
+<path d="M75.0,-300.0 L112.5,-337.5" stroke="red" stroke-width="1" />
+<path d="M112.5,-337.5 L150.0,-300.0" stroke="red" stroke-width="1" />
+<path d="M150.0,0 L150.0,-300.0" stroke="red" stroke-width="1" />
+<path d="M150.0,-300.0 L150.0,-600" stroke="blue" stroke-width="1" />
+<path d="M200.0,0 L200.0,-350.0" stroke="blue" stroke-width="1" />
+<path d="M200.0,-350.0 L200.0,-600" stroke="red" stroke-width="1" />
+<path d="M150.0,-300.0 L200.0,-350.0" stroke="red" stroke-width="1" />
+<path d="M200.0,-350.0 L250.0,-300.0" stroke="red" stroke-width="1" />
+<path d="M250.0,0 L250.0,-300.0" stroke="red" stroke-width="1" />
+<path d="M250.0,-300.0 L250.0,-600" stroke="blue" stroke-width="1" />
+<path d="M312.5,0 L312.5,-362.5" stroke="blue" stroke-width="1" />
+<path d="M312.5,-362.5 L312.5,-600" stroke="red" stroke-width="1" />
+<path d="M250.0,-300.0 L312.5,-362.5" stroke="red" stroke-width="1" />
+<path d="M312.5,-362.5 L375.0,-300.0" stroke="red" stroke-width="1" />
+<path d="M375.0,0 L375.0,-300.0" stroke="red" stroke-width="1" />
+<path d="M375.0,-300.0 L375.0,-600" stroke="blue" stroke-width="1" />
+<path d="M450.0,0 L450.0,-375.0" stroke="blue" stroke-width="1" />
+<path d="M450.0,-375.0 L450.0,-600" stroke="red" stroke-width="1" />
+<path d="M375.0,-300.0 L450.0,-375.0" stroke="red" stroke-width="1" />
+<path d="M450.0,-375.0 L525.0,-300.0" stroke="red" stroke-width="1" />
+<path d="M525.0,0 L525.0,-300.0" stroke="red" stroke-width="1" />
+<path d="M525.0,-300.0 L525.0,-600" stroke="blue" stroke-width="1" />
+<path d="M612.5,0 L612.5,-387.5" stroke="blue" stroke-width="1" />
+<path d="M612.5,-387.5 L612.5,-600" stroke="red" stroke-width="1" />
+<path d="M525.0,-300.0 L612.5,-387.5" stroke="red" stroke-width="1" />
+<path d="M612.5,-387.5 L700.0,-300.0" stroke="red" stroke-width="1" />
+<path d="M700.0,0 L700.0,-300.0" stroke="red" stroke-width="1" />
+<path d="M700.0,-300.0 L700.0,-600" stroke="blue" stroke-width="1" />
+<path d="M800.0,0 L800.0,-400.0" stroke="blue" stroke-width="1" />
+<path d="M800.0,-400.0 L800.0,-600" stroke="red" stroke-width="1" />
+<path d="M700.0,-300.0 L800.0,-400.0" stroke="red" stroke-width="1" />
+<path d="M800.0,-400.0 L900.0,-300.0" stroke="red" stroke-width="1" />
+<path d="M900.0,0 L900.0,-300.0" stroke="red" stroke-width="1" />
+<path d="M900.0,-300.0 L900.0,-600" stroke="blue" stroke-width="1" />
+<path d="M1012.5,0 L1012.5,-412.5" stroke="blue" stroke-width="1" />
+<path d="M1012.5,-412.5 L1012.5,-600" stroke="red" stroke-width="1" />
+<path d="M900.0,-300.0 L1012.5,-412.5" stroke="red" stroke-width="1" />
+<path d="M1012.5,-412.5 L1125.0,-300.0" stroke="red" stroke-width="1" />
+<path d="M1125.0,0 L1125.0,-300.0" stroke="red" stroke-width="1" />
+<path d="M1125.0,-300.0 L1125.0,-600" stroke="blue" stroke-width="1" />
+</svg>
